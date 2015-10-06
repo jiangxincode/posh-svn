@@ -6,6 +6,9 @@ $global:SvnPromptSettings = New-Object PSObject -Property @{
     AfterText                 = ']'
     AfterForegroundColor      = [ConsoleColor]::Yellow
     AfterBackgroundColor      = $Host.UI.RawUI.BackgroundColor
+	
+	ErrorForgegroundColor     = [ConsoleColor]::Red
+	ErrorBackgroundColor      = $Host.UI.RawUI.BackgroundColor
     
     BranchForegroundColor    = [ConsoleColor]::Cyan
     BranchBackgroundColor    = $Host.UI.RawUI.BackgroundColor
